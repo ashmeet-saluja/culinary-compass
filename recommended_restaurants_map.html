@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c66e160ef5701adb2e468f8df5aaa417 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c66e160ef5701adb2e468f8df5aaa417" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c66e160ef5701adb2e468f8df5aaa417 = L.map(
+                "map_c66e160ef5701adb2e468f8df5aaa417",
+                {
+                    center: [40.747407223937, -73.986090778063],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_94d10ab8daa5041173e0ef88521255f6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_94d10ab8daa5041173e0ef88521255f6.addTo(map_c66e160ef5701adb2e468f8df5aaa417);
+        
+    
+            var marker_56d60fcd21c03707f1c3b592fbf90d6a = L.marker(
+                [40.747407223937, -73.986090778063],
+                {
+}
+            ).addTo(map_c66e160ef5701adb2e468f8df5aaa417);
+        
+    
+            var icon_ad68525afc8afa392f35e25175996e6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_56d60fcd21c03707f1c3b592fbf90d6a.setIcon(icon_ad68525afc8afa392f35e25175996e6f);
+        
+    
+        var popup_13fbb77b9bc56019056cc6639a4d7312 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c42201627b422a1c948eaa5dd8c84f0a = $(`<div id="html_c42201627b422a1c948eaa5dd8c84f0a" style="width: 100.0%; height: 100.0%;">ROLL & KATSU KITCHEN - Rating: 5.0</div>`)[0];
+                popup_13fbb77b9bc56019056cc6639a4d7312.setContent(html_c42201627b422a1c948eaa5dd8c84f0a);
+            
+        
+
+        marker_56d60fcd21c03707f1c3b592fbf90d6a.bindPopup(popup_13fbb77b9bc56019056cc6639a4d7312)
+        ;
+
+        
+    
+    
+            var marker_7b8d463b8d002a357a376b78503797a7 = L.marker(
+                [40.747009546852, -73.988974463331],
+                {
+}
+            ).addTo(map_c66e160ef5701adb2e468f8df5aaa417);
+        
+    
+            var icon_ce3aebe0ad89b1de695cffa0d7a71939 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7b8d463b8d002a357a376b78503797a7.setIcon(icon_ce3aebe0ad89b1de695cffa0d7a71939);
+        
+    
+        var popup_4d88009c5fbaa2e9247fc56e02690db7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94ffb86715bbf015497f2a8c6eec557f = $(`<div id="html_94ffb86715bbf015497f2a8c6eec557f" style="width: 100.0%; height: 100.0%;">MK ULTRA COFFEE & BAKED GOODS - Rating: 5.0</div>`)[0];
+                popup_4d88009c5fbaa2e9247fc56e02690db7.setContent(html_94ffb86715bbf015497f2a8c6eec557f);
+            
+        
+
+        marker_7b8d463b8d002a357a376b78503797a7.bindPopup(popup_4d88009c5fbaa2e9247fc56e02690db7)
+        ;
+
+        
+    
+    
+            var marker_9876f59d3aa3018b2655e2957acc2f7e = L.marker(
+                [40.747407223937, -73.986090778063],
+                {
+}
+            ).addTo(map_c66e160ef5701adb2e468f8df5aaa417);
+        
+    
+            var icon_90202ea8854d62225e273660d15c7354 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9876f59d3aa3018b2655e2957acc2f7e.setIcon(icon_90202ea8854d62225e273660d15c7354);
+        
+    
+        var popup_c44af64ad54957481e992b59aba1ee99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16921ad52740eef8546fe4894eb76acf = $(`<div id="html_16921ad52740eef8546fe4894eb76acf" style="width: 100.0%; height: 100.0%;">GOCHUJANG - Rating: 5.0</div>`)[0];
+                popup_c44af64ad54957481e992b59aba1ee99.setContent(html_16921ad52740eef8546fe4894eb76acf);
+            
+        
+
+        marker_9876f59d3aa3018b2655e2957acc2f7e.bindPopup(popup_c44af64ad54957481e992b59aba1ee99)
+        ;
+
+        
+    
+    
+            var marker_53b1103beb6ec695fceef3d83c7d76c0 = L.marker(
+                [40.751909467483, -73.998686222038],
+                {
+}
+            ).addTo(map_c66e160ef5701adb2e468f8df5aaa417);
+        
+    
+            var icon_672516958daf2a535c69a68ea50b294d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_53b1103beb6ec695fceef3d83c7d76c0.setIcon(icon_672516958daf2a535c69a68ea50b294d);
+        
+    
+        var popup_0510e0fb14f1dc258b984f77c9c3b2f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c5765a420c20659bd588e4529293ab1 = $(`<div id="html_3c5765a420c20659bd588e4529293ab1" style="width: 100.0%; height: 100.0%;">DAILY PROVISIONS - Rating: 5.0</div>`)[0];
+                popup_0510e0fb14f1dc258b984f77c9c3b2f1.setContent(html_3c5765a420c20659bd588e4529293ab1);
+            
+        
+
+        marker_53b1103beb6ec695fceef3d83c7d76c0.bindPopup(popup_0510e0fb14f1dc258b984f77c9c3b2f1)
+        ;
+
+        
+    
+    
+            var marker_2f9512260a1a47e10a6552bbe54ff6b5 = L.marker(
+                [40.747407223937, -73.986090778063],
+                {
+}
+            ).addTo(map_c66e160ef5701adb2e468f8df5aaa417);
+        
+    
+            var icon_67cc010f57d3693f332a754173955899 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2f9512260a1a47e10a6552bbe54ff6b5.setIcon(icon_67cc010f57d3693f332a754173955899);
+        
+    
+        var popup_cb5d6e34f399b9772b2204c8d28ad7dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58254f7be9c70b0059695bf532141e68 = $(`<div id="html_58254f7be9c70b0059695bf532141e68" style="width: 100.0%; height: 100.0%;">MARU - Rating: 5.0</div>`)[0];
+                popup_cb5d6e34f399b9772b2204c8d28ad7dd.setContent(html_58254f7be9c70b0059695bf532141e68);
+            
+        
+
+        marker_2f9512260a1a47e10a6552bbe54ff6b5.bindPopup(popup_cb5d6e34f399b9772b2204c8d28ad7dd)
+        ;
+
+        
+    
+</script>
+</html>
